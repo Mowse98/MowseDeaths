@@ -21,7 +21,7 @@ There is a function called 'settings' where you can edit the behaviour of this d
 * You can change items to despawn after the vanilla 5 minutes or never
 * You can stop the hazard check so items simply group up and land where you died
 
-## Intstalling
+## Installing
 
 * Click the green '<> Code' button at the top and Download as Zip
 * Put this folder in your datapacks folder
