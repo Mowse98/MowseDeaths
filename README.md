@@ -1,6 +1,6 @@
 # MowseDeaths
 
-A simple datapack I made to add some quality of life and customisation to the vanilla system, while keeping the vanilla feel.
+A simple datapack I made to add some quality of life and customisation to the vanilla system, while keeping the vanilla feel. This is not suitable for all styles of maps - pick the death system that fits best! 
 
 You can freely use this datapack in your maps and edit it with or without attribution.
 
