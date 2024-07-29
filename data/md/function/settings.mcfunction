@@ -17,7 +17,7 @@ scoreboard players set $despawn md_settings 1
 
 # Are dropped items invulnerable?
 # 0 = No, 1 = Yes
-scoreboard players set $invulnerable md_settings 1
+scoreboard players set $invulnerable md_settings 0
 
 
 # Do dropped items emit soul particles?
