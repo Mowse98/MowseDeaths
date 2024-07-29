@@ -24,6 +24,6 @@ There is a function called 'settings' where you can edit the behaviour of this d
 ## Installing
 
 * Click the green '<> Code' button at the top and Download as Zip
-* Put this folder in your datapacks folder
+* Put the contained folder in your datapacks folder
 
 #### If you notice anything not working correctly, or have any suggestions, let me know :)
