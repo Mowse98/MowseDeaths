@@ -1,12 +1,8 @@
 # Summon Marker at Death Location
 summon marker ~ ~ ~ {Tags:["md.deathMarker"]}
 
-# Hazard Checks
-execute if block ~ ~-1 ~ air run setblock ~ ~-1 ~ glass
-execute if block ~ ~-1 ~ cactus run setblock ~ ~-1 ~ glass
-execute if block ~ ~-1 ~ lava run setblock ~ ~-1 ~ glass
-execute if block ~ ~-1 ~ fire run setblock ~ ~-1 ~ air
-execute if block ~ ~ ~ fire run setblock ~ ~ ~ air
+# Hazard Checks (doesn't run for creative/spectator mode players)
+execute if entity @s[gamemode=!creative,gamemode=!spectator] run execute if score $hazard md_settings matches 1 run function md:death/death_hazards
 
 # Tag the items to process
 tag @e[type=item,nbt={Age:0s},tag=!md.deathItem,distance=..2] add md.deathItem
