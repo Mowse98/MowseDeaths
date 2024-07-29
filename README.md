@@ -20,3 +20,5 @@ There is a function called 'settings' where you can edit the behaviour of this d
 * You can make items invulnerable (though there is a 1 tick delay where a really fast chain of explosions could destroy a death pile. I don't recommend turning on Invulnerable items for this reason)
 * You can change items to despawn after the vanilla 5 minutes or never
 * You can stop the hazard check so items simply group up and land where you died
+
+#### If you notice anything not working correctly, or have any suggestions, let me know :)
